@@ -4,7 +4,7 @@
 
 "descriptionmsg":"forcetoconeverypage-description",
 "license-name":"GPL-2.0-or-later",
-"type":"other",
+"type":"parserhook",
 "url":"https://www.mediawiki.org/wiki/Extension:ForceTocOnEveryPage",
 "version":"2.0",
 
