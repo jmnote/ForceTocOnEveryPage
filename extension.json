@@ -1,0 +1,21 @@
+{"manifest_version":2,
+"name":"ForceTocOnEveryPage",
+"author":["[https://github.com/jmnote Jmnote]","[http://exit.plavormind.tk:81/page/User:PlavorSeol PlavorSeol]"],
+
+"descriptionmsg":"forcetoconeverypage-description",
+"license-name":"GPL-2.0-or-later",
+"type":"parserhook",
+"url":"https://www.mediawiki.org/wiki/Extension:ForceTocOnEveryPage",
+"version":"2.0",
+
+"AutoloadClasses":
+  {"ForceTocOnEveryPageHooks":"hooks.php"},
+"Hooks":
+  {"InternalParseBeforeLinks":"ForceTocOnEveryPageHooks::onInternalParseBeforeLinks"},
+"MessagesDirs":
+  {"ForceTocOnEveryPage":
+    ["messages"]
+  },
+"requires":
+  {"MediaWiki":">=1.31"}
+}
